@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>Cannaponics — Cannabis Nutritional Dashboard | Hybrid Ag Solutions</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f1117;--card:#181c25;--accent:#5da87e;--accentDim:#5da87e44;--red:#d45d5d;--amber:#d4a35d;--text:#e8e4df;--dim:#7a7a8a;--border:#ffffff0a;--blue:#6366f1}
+html{overflow-x:hidden}body{font-family:'Instrument Sans','Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+.header{background:linear-gradient(135deg,#181c25 0%,#1a2a1f 50%,#181c25 100%);border-bottom:1px solid var(--border);padding:28px 32px 20px;overflow-x:hidden}
+.header-inner{max-width:1400px;margin:0 auto}
+.header-label{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+.header h1{font-size:28px;font-weight:700;letter-spacing:-0.5px;color:var(--text);margin:0}
+.header .subtitle{font-size:13px;color:var(--dim);margin-top:4px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.tab{padding:8px 16px;cursor:pointer;font-size:12px;font-weight:600;background:var(--card);color:var(--dim);border:none;border-radius:6px;transition:all 0.2s;white-space:nowrap}
+.tab.active{background:var(--accent);color:var(--bg);font-weight:700}
+.tab.active .tab-count,.tab.active .tab-caption{color:var(--bg)!important}
+.tab:hover:not(.active){background:#252d35;color:var(--text)}
+.container{max-width:1400px;margin:0 auto;padding:32px;overflow-x:hidden}
+.tab-content{display:none}
+.tab-content.active{display:block}
+.panel-group{display:grid;grid-template-columns:1fr;gap:24px;margin-bottom:32px}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:24px;overflow-x:hidden}
+.panel h2{font-size:16px;font-weight:700;color:var(--text);margin-bottom:16px}
+.section-title{font-size:16px;font-weight:700;color:var(--text);margin-bottom:20px;margin-top:0}
+.pheno-container{display:grid;grid-template-columns:1fr;gap:20px}
+.pheno-row{display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:stretch}
+.pheno-label{display:flex;flex-direction:column;justify-content:center}
+.pheno-label-main{font-size:13px;font-weight:700;color:var(--text)}
+.pheno-label-sub{font-size:11px;color:var(--dim);margin-top:2px}
+.pheno-strip{display:flex;gap:4px;align-items:stretch;min-height:48px;border-radius:6px;overflow:hidden;background:rgba(0,0,0,0.2);padding:0}
+.pheno-stage{display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600;color:rgba(255,255,255,0.8);text-align:center;padding:8px 4px;position:relative}
+.pheno-stage span{position:relative;z-index:1}
+.green-light{background:#4ade80}
+.green-med{background:#22c55e}
+.green-dark{background:#16a34a}
+.purple-light{background:#c084fc}
+.purple-med{background:#a855f7}
+.purple-dark{background:#7e22ce}
+.amber{background:#f59e0b}
+.grey{background:#6b7280}
+.month-labels{display:grid;grid-template-columns:100px 1fr;gap:16px;margin-bottom:16px}
+.month-labels-spacer{width:100px}
+.month-labels-row{display:flex;gap:4px;justify-content:flex-start}
+.month-label{flex:1;font-size:9px;color:var(--dim);text-align:center;padding:0 4px}
+.pheno-note{font-size:11px;color:var(--dim);margin-top:8px;font-style:italic}
+.marker{position:absolute;top:-4px;bottom:-4px;width:2px;background:rgba(255,255,255,0.6);z-index:2}
+.resp-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.resp-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:900px){
+  /* --- HEADER --- */
+  .header{padding:16px 12px 14px}
+  #advisor-tags{flex-wrap:wrap !important}
+
+  /* --- PHENO-STRIP --- */
+  #pheno-strip{padding-left:8px !important;padding-right:8px !important}
+
+  /* --- TABS --- */
+  .tabs-wrapper{padding:0 12px !important}
+  .tabs{gap:4px}
+  .tab{padding:6px 10px;font-size:11px}
+
+  /* --- CONTENT --- */
+  .container{padding:16px 12px 32px}
+
+  /* --- GRIDS --- */
+  .resp-grid-2,.resp-grid-3{grid-template-columns:1fr !important;gap:12px !important}
+
+  /* --- TABLES --- */
+  .param-table,.data-table{min-width:600px}
+
+  /* --- CHARTS --- */
+  .chart-container{height:260px}
+
+  /* --- SCROLLABLE CHARTS --- */
+  .chart-scroll{position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:rgba(93,168,126,0.35) transparent;border-radius:10px;margin-bottom:4px}
+  .chart-scroll::-webkit-scrollbar{height:6px}
+  .chart-scroll::-webkit-scrollbar-track{background:transparent;border-radius:3px}
+  .chart-scroll::-webkit-scrollbar-thumb{background:rgba(93,168,126,0.35);border-radius:3px}
+  .chart-scroll::-webkit-scrollbar-thumb:hover{background:rgba(93,168,126,0.55)}
+  .chart-scroll-inner{min-width:800px}
+  .chart-scroll-hint{display:block;text-align:center;font-size:9px;color:var(--dim);letter-spacing:0.5px;padding:2px 0 0;opacity:0.7}
+
+  /* --- MAP --- */
+  #leaflet-map{height:400px !important}
+
+  /* --- TOOLTIPS --- */
+  .marker-tip{width:calc(100vw - 60px) !important;max-width:220px !important}
+}
+
+@media(max-width:600px){
+  /* --- HEADER --- */
+  .header{padding:12px 8px 10px}
+  .header h1{font-size:16px;word-break:break-word}
+  .header-label{font-size:9px;letter-spacing:1.5px}
+
+  /* --- TABS --- */
+  .tabs-wrapper{padding:0 8px !important}
+  .tabs{padding:0;gap:3px}
+  .tab{padding:5px 8px;font-size:10px}
+  .tab-caption{font-size:7px}
+
+  /* --- CONTENT --- */
+  .container{padding:12px 8px 32px}
+  .panel{padding:14px 12px}
+  .card{padding:12px 10px;border-radius:8px}
+  .card h3{font-size:12px;margin-bottom:8px}
+
+  /* --- SECTION TITLES --- */
+  .section-title{font-size:14px}
+
+  /* --- CHARTS --- */
+  .chart-container{height:220px}
+
+  /* --- MAP --- */
+  #leaflet-map{height:300px !important}
+
+  /* --- TIMELINE --- */
+  .timeline{padding-left:16px}
+  .timeline-item{padding-left:12px}
+  .timeline-item::before{left:-21px;width:10px;height:10px}
+  .timeline-item .year{font-size:12px}
+  .timeline-item .desc{font-size:11px}
+
+  /* --- INSIGHT/RECOMMENDATION --- */
+  .insight-box{padding:14px;border-radius:8px}
+  .insight-box h3{font-size:12px}
+  .insight-box p{font-size:11px}
+
+  /* --- TRAFFIC LIGHT CARDS --- */
+  .resp-grid-3>div{padding:12px !important}
+
+  /* --- PHENO-STRIP LABELS --- */
+  #pheno-strip [style*="width:100px"]{width:60px !important;font-size:11px !important}
+  #pheno-strip [style*="width:100px"] span{font-size:8px !important}
+}
+.status-card{background:rgba(0,0,0,0.3);border:1px solid var(--border);border-radius:6px;padding:20px;overflow-x:hidden}
+.status-card h3{font-size:13px;font-weight:700;color:var(--text);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.status-badge{display:inline-block;width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.badge-red{background:var(--red)}
+.badge-amber{background:var(--amber)}
+.badge-green{background:var(--accent)}
+.status-item{font-size:12px;color:var(--text);line-height:1.5;margin-bottom:8px}
+.status-item strong{font-weight:600}
+.status-item:last-child{margin-bottom:0}
+.param-table{width:100%;border-collapse:collapse;font-size:11px;margin-top:12px}
+.param-table th,.param-table td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--border)}
+.param-table th{background:rgba(0,0,0,0.2);font-weight:600;color:var(--dim);font-size:10px;text-transform:uppercase}
+.param-table td{color:var(--text)}
+.param-table tr:hover{background:rgba(93,168,126,0.05)}
+.dot-red{color:var(--red)}
+.dot-amber{color:var(--amber)}
+.dot-green{color:var(--accent)}
+.nbar{margin-bottom:8px}
+.nbar-head{display:flex;justify-content:space-between;margin-bottom:3px}
+.nbar-name{font-size:11px;font-weight:600;color:var(--text)}
+.nbar-val{font-size:12px;font-weight:700;font-family:'DM Mono',monospace;color:var(--text)}
+.nbar-track{height:6px;background:rgba(255,255,255,0.06);border-radius:3px;overflow:hidden}
+.nbar-fill{height:100%;border-radius:3px;transition:width 0.3s}
+.nbar-fill-red{background:var(--red)}
+.nbar-fill-amber{background:var(--amber)}
+.nbar-fill-green{background:var(--accent)}
+.nbar-range{font-size:9px;color:var(--dim);margin-top:2px}
+.chart-container{position:relative;height:300px;margin:16px 0}
+.chart-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.chart-scroll-inner{min-width:800px}
+.chart-scroll-hint{font-size:9px;color:var(--dim);text-align:center;margin-top:4px}
+.issues-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:12px}
+.issue{background:rgba(0,0,0,0.3);border:1px solid var(--border);border-radius:4px;padding:12px;font-size:11px}
+.issue-badge{display:inline-block;padding:2px 8px;border-radius:3px;font-size:9px;font-weight:600;margin-right:4px;margin-bottom:4px}
+.badge-red{background:rgba(212,93,93,0.2);color:var(--red);border:1px solid var(--red)}
+.badge-yellow{background:rgba(234,179,8,0.15);color:#eab308;border:1px solid rgba(234,179,8,0.3)}
+.badge-orange{background:rgba(249,115,22,0.15);color:#f97316;border:1px solid rgba(249,115,22,0.3)}
+.badge-green{background:rgba(93,168,126,0.2);color:var(--accent);border:1px solid var(--accent)}
+.issue-title{font-weight:600;color:var(--text);margin-bottom:4px}
+.issue-desc{color:var(--dim);line-height:1.4}
+.data-table{width:100%;border-collapse:collapse;font-size:11px;margin-top:16px;overflow-x:auto}
+.data-table th,.data-table td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border)}
+.data-table th{background:rgba(0,0,0,0.2);font-weight:600;color:var(--dim);font-size:10px;text-transform:uppercase;white-space:nowrap}
+.data-table td{color:var(--text)}
+.data-table tr:hover{background:rgba(93,168,126,0.05)}
+.cell-deficit{color:var(--red);font-weight:600}
+.cell-surplus{color:var(--accent);font-weight:600}
+.cell-adequate{color:var(--accent);font-weight:600}
+.cell-warning{color:var(--amber);font-weight:600}
+.leaflet-container{height:400px;border-radius:6px;border:1px solid var(--border);margin-top:16px}
+.legend{background:rgba(0,0,0,0.4);padding:12px;border-radius:4px;margin-top:12px;font-size:11px;color:var(--text)}
+.legend-item{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.legend-item:last-child{margin-bottom:0}
+.legend-color{width:16px;height:16px;border-radius:3px;flex-shrink:0}
+.tab-count{font-weight:700;margin-right:4px}
+.tab-caption{font-size:9px;color:var(--dim);margin-right:4px;text-transform:uppercase;letter-spacing:0.5px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:24px}
+.empty-state{text-align:center}
+.empty-state h3{font-size:14px;font-weight:700;color:var(--text);margin-bottom:12px}
+.empty-state p{font-size:12px;color:var(--dim);line-height:1.6;margin-bottom:0}
+.insight-box{background:rgba(93,168,126,0.1);border:1px solid rgba(93,168,126,0.2);border-radius:8px;padding:20px;margin-bottom:24px}
+.insight-box h3{font-size:14px;font-weight:700;color:var(--accent);margin-bottom:12px}
+.insight-box p{font-size:12px;color:var(--text);line-height:1.7;margin-bottom:0}
+.interpretation-section{margin-bottom:32px}
+.interpretation-section h3{font-size:14px;font-weight:700;color:var(--text);margin-bottom:12px}
+.interpretation-section h4{font-size:12px;font-weight:700;color:var(--text);margin-top:12px;margin-bottom:8px}
+.interpretation-section p{font-size:12px;color:var(--dim);line-height:1.6}
+.interpretation-section ul{margin-left:18px;margin-bottom:12px;font-size:12px;line-height:1.6;color:var(--dim)}
+.interpretation-section li{margin-bottom:8px}
+.our-interpretation{background:rgba(93,168,126,0.05);border:1px solid rgba(93,168,126,0.15);border-radius:8px;padding:20px;margin-top:24px}
+.recommendation{background:rgba(0,0,0,0.2);border-left:3px solid var(--accent);border-radius:4px;padding:16px;margin-bottom:12px}
+.recommendation strong{color:var(--accent);font-weight:700}
+.recommendation p{font-size:12px;color:var(--dim);line-height:1.6;margin:0}
+.note{background:rgba(212,93,93,0.1);border:1px solid rgba(212,93,93,0.2);border-radius:4px;padding:12px;font-size:12px;color:var(--text);line-height:1.6}
+.note strong{color:var(--accent);font-weight:700}
+.timeline{position:relative;padding-left:24px;border-left:2px solid var(--border)}
+.timeline-item{position:relative;padding-bottom:20px;padding-left:16px}
+.timeline-item:last-child{padding-bottom:0}
+.timeline-item::before{content:'';position:absolute;left:-29px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.timeline-item .year{font-size:14px;font-weight:700;color:var(--accent)}
+.timeline-item .desc{font-size:12px;color:var(--dim);margin-top:4px;line-height:1.6}
+.test-marker{position:absolute;top:0;bottom:0;width:1px;z-index:15;pointer-events:none}
+.test-marker.soil{background:rgba(99,102,241,0.5)}
+.test-marker.labelled::before{content:attr(data-label);position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);font-size:6.5px;font-weight:700;white-space:nowrap;letter-spacing:0.3px}
+.test-marker.labelled.soil::before{color:#6366f1}
+.test-marker.labelled::after{content:'';position:absolute;bottom:-6px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%}
+.test-marker.labelled.soil::after{background:#6366f1}
+.marker-tip{position:fixed;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:10px;line-height:1.5;color:var(--text);white-space:normal;width:220px;z-index:9999;visibility:hidden;opacity:0;transition:opacity .2s;pointer-events:none;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
+.test-marker:hover .marker-tip,.test-marker.tip-active .marker-tip{visibility:visible;opacity:1;pointer-events:auto}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="header-inner">
+<div>
+<div style="margin-bottom:8px"><img src="Hybrid-Ag%20-%20Main%20Header%20-%20White%20(2).png" alt="Hybrid Ag Solutions" style="height:32px;width:auto"></div>
+<div class="header-label">Client Dashboard</div>
+<h1>Cannaponics — Collie Burn, Western Australia 6225</h1>
+<div id="advisor-tags" style="margin-top:6px;font-size:11px;color:var(--dim);line-height:1.6">Program Manager: Jamie Granger <span style="color:rgba(255,255,255,0.15);margin:0 6px">&middot;</span> Data &amp; Trends: Nathan Katseli</div>
+<div style="margin-top:8px;font-size:10px;color:var(--dim);line-height:1.6">Cannabis Phenological Stages &mdash; Southern Hemisphere (Collie Burn, WA) &middot; Indoor: 3 cycles/yr &middot; Outdoor: Sep&ndash;Apr photoperiod &middot; <span style="color:var(--amber);font-style:italic">Cycles assumed &mdash; pending confirmation from Jamie</span></div>
+</div>
+</div>
+
+<div id="pheno-strip" style="background:var(--bg);border-top:1px solid rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.06);max-width:1400px;margin:12px auto 0;padding:0 32px;box-sizing:border-box;overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div style="min-width:900px;display:flex;flex-direction:column;padding:12px 0">
+<div style="display:flex;align-items:center;margin-bottom:4px">
+<div style="width:100px;flex-shrink:0"></div>
+<div id="phenoMonthRow" style="flex:1;display:flex;gap:0"><div class="pheno-mo" data-mo="0" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">JAN</div><div class="pheno-mo" data-mo="1" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">FEB</div><div class="pheno-mo" data-mo="2" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">MAR</div><div class="pheno-mo" data-mo="3" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">APR</div><div class="pheno-mo" data-mo="4" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">MAY</div><div class="pheno-mo" data-mo="5" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">JUN</div><div class="pheno-mo" data-mo="6" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">JUL</div><div class="pheno-mo" data-mo="7" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">AUG</div><div class="pheno-mo" data-mo="8" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">SEP</div><div class="pheno-mo" data-mo="9" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">OCT</div><div class="pheno-mo" data-mo="10" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">NOV</div><div class="pheno-mo" data-mo="11" style="flex:1;text-align:center;font-size:8px;font-weight:600;color:var(--dim)">DEC</div></div>
+</div>
+
+<!-- INDOOR CANNABIS -->
+<div style="display:flex;align-items:center;margin-bottom:3px">
+<div style="width:100px;font-size:13px;font-weight:700;color:var(--accent);flex-shrink:0">Cannabis<br><span style="font-weight:400;font-size:10px;color:var(--dim)">Indoor</span></div>
+<div class="pheno-bar" style="flex:1;display:flex;gap:0;border-radius:5px;overflow:hidden;height:26px;position:relative">
+<div style="flex:1;background:rgba(34,197,94,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#22c55e;font-weight:600">Clone</span></div><div style="flex:2;background:rgba(22,163,74,0.18);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#16a34a;font-weight:600">Veg 18/6</span></div><div style="flex:3;background:rgba(168,85,247,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#a855f7;font-weight:600">Flower 12/12</span></div><div style="flex:1;background:rgba(34,197,94,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#22c55e;font-weight:600">Clone</span></div><div style="flex:2;background:rgba(22,163,74,0.18);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#16a34a;font-weight:600">Veg 18/6</span></div><div style="flex:3;background:rgba(168,85,247,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#a855f7;font-weight:600">Flower 12/12</span></div><div style="flex:1;background:rgba(34,197,94,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#22c55e;font-weight:600">Clone</span></div><div style="flex:2;background:rgba(22,163,74,0.18);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#16a34a;font-weight:600">Veg 18/6</span></div><div style="flex:3;background:rgba(168,85,247,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#a855f7;font-weight:600">Flower 12/12</span></div>
+</div>
+</div>
+
+<!-- OUTDOOR CANNABIS -->
+<div style="display:flex;align-items:center;margin-bottom:3px">
+<div style="width:100px;font-size:13px;font-weight:700;color:var(--accent);flex-shrink:0">Cannabis<br><span style="font-weight:400;font-size:10px;color:var(--dim)">Outdoor</span></div>
+<div class="pheno-bar" style="flex:1;display:flex;gap:0;border-radius:5px;overflow:hidden;height:26px;position:relative">
+<div style="flex:1;background:rgba(245,158,11,0.12);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#f59e0b;font-weight:600">Dry/Cure</span></div><div style="flex:1;background:rgba(100,116,139,0.12);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#94a3b8;font-weight:600">Dormant</span></div><div style="flex:1;background:rgba(100,116,139,0.12);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#94a3b8;font-weight:600">Dormant</span></div><div style="flex:1;background:rgba(100,116,139,0.12);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#94a3b8;font-weight:600">Dormant</span></div><div style="flex:1;background:rgba(107,83,68,0.3);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#a3866e;font-weight:600">Soil Prep</span></div><div style="flex:1;background:rgba(34,197,94,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#22c55e;font-weight:600">Germ.</span></div><div style="flex:1;background:rgba(34,197,94,0.2);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#22c55e;font-weight:600">Seedling</span></div><div style="flex:3;background:rgba(22,163,74,0.18);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#16a34a;font-weight:600">Vegetative Growth</span></div><div style="flex:1;background:rgba(132,204,22,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#84cc16;font-weight:600">Pre-Flower</span></div><div style="flex:2;background:rgba(168,85,247,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#a855f7;font-weight:600">Flowering</span></div><div style="flex:1;background:rgba(245,158,11,0.15);display:flex;align-items:center;justify-content:center"><span style="font-size:8px;color:#f59e0b;font-weight:600">Harvest</span></div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="tabs-wrapper" style="max-width:1400px;margin:0 auto;padding:0 32px;box-sizing:border-box">
+<div class="tabs" id="tabs">
+<div class="tab" data-tab="water"><span class="tab-count" data-color="#3b82f6" style="color:#3b82f6">0</span><span class="tab-caption">tests</span> Water Analysis</div>
+<div class="tab active" data-tab="soil"><span class="tab-count" data-color="#5da87e" style="color:#5da87e">5</span><span class="tab-caption">samples</span> Soil Analysis</div>
+<div class="tab" data-tab="tissue"><span class="tab-count" data-color="#6366f1" style="color:#6366f1">0</span><span class="tab-caption">samples</span> Tissue Analysis</div>
+<div class="tab" data-tab="flower"><span class="tab-count" data-color="#eab308" style="color:#eab308">0</span><span class="tab-caption">tests</span> Flower Analysis</div>
+<div class="tab" data-tab="rainfall"><span class="tab-count" data-color="#3b82f6" style="color:#3b82f6">577</span><span class="tab-caption">mm avg</span> Rainfall Analysis</div>
+<div class="tab" data-tab="trials"><span class="tab-count" data-color="#8b5cf6" style="color:#8b5cf6">0</span><span class="tab-caption">active</span> Trials &amp; Testing</div>
+<div class="tab" data-tab="map"><span class="tab-count" data-color="#5da87e" style="color:#5da87e">5</span><span class="tab-caption">blocks</span> Rotation, Amelioration &amp; Satellite Imagery</div>
+<div class="tab" data-tab="overview"><span class="tab-count" data-color="#d4a35d" style="color:#d4a35d">1</span><span class="tab-caption">year</span> Overview &amp; Timeline</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<!-- SOIL PROFILE TAB -->
+<div id="soil" class="tab-content active">
+
+<!-- COMPREHENSIVE SOIL ANALYSIS SECTION -->
+<div class="panel-group">
+  <div class="panel" id="panel-soil">
+    <div class="section-title">Comprehensive Soil (2022)</div>
+    <div style="font-size:12px;color:var(--dim);margin-bottom:24px">APAL Batch #31062 · 5 blocks · Sampled Sep 2022 · Collie Burn, WA 6225</div>
+
+    <!-- Depth Profile Context -->
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+      <div style="background:rgba(93,168,126,0.08);border:1px solid rgba(93,168,126,0.15);border-radius:6px;padding:10px 14px;flex:1;min-width:200px">
+        <div style="font-size:10px;font-weight:600;color:var(--accent);margin-bottom:4px">SITE A — Blocks 1, 2, 3</div>
+        <div style="font-size:10px;color:var(--dim);line-height:1.5">GPS: -33.3999, 116.2243 · Sand<br>Depth profile: 0-10cm, 10-20cm, 20-30cm</div>
+      </div>
+      <div style="background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.15);border-radius:6px;padding:10px 14px;flex:1;min-width:200px">
+        <div style="font-size:10px;font-weight:600;color:var(--blue);margin-bottom:4px">SITE B — Blocks 4, 5</div>
+        <div style="font-size:10px;color:var(--dim);line-height:1.5">GPS: -33.3990, 116.2229 · Sandy loam<br>Depth profile: 0-10cm, 20-30cm</div>
+      </div>
+    </div>
+
+    <!-- Traffic Light Summary -->
+    <div class="resp-grid-3">
+      <!-- RED - CRITICAL -->
+      <div style="background:rgba(212,93,93,0.08);border:1px solid rgba(212,93,93,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--red)">
+        <h3 style="margin:0 0 12px 0;font-size:13px;color:#ff9999"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--red);margin-right:8px;vertical-align:middle"></span>CRITICAL</h3>
+        <div style="font-size:11px;line-height:1.6;color:var(--text)">
+          <div style="margin-bottom:10px"><strong>Low pH</strong> — All blocks 5.54–5.80 vs 6.50+ target. 100% below optimal. Restricts P, K, Ca availability, promotes Al solubility. Cannabis is highly pH-sensitive during flowering.</div>
+          <div style="margin-bottom:10px"><strong>Low Sulfur</strong> — Avg 4.9 ppm vs 10 minimum. 100% deficient. Cannabis S demand 20–40 kg/ha. Current soil supply <2 kg/ha.</div>
+          <div style="margin-bottom:10px"><strong>Aluminium Toxicity</strong> — Block 5 subsoil: 12.6% exch. Al (toxic >5%). Root growth chemically restricted at depth.</div>
+          <div style="margin-bottom:10px"><strong>Low ECEC (subsoils)</strong> — Blocks 3 &amp; 5 ECEC 1.32–1.55 cmol/kg. Extremely low nutrient holding capacity.</div>
+          <div><strong>Calcium Oversupply</strong> — Ca dominates ~80% of cation exchange capacity. Excess Ca may tie up manganese availability. Tissue testing will confirm the extent of the issue, but at 80% CEC there is more than enough calcium to work with.</div>
+        </div>
+      </div>
+
+      <!-- AMBER - WATCH -->
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--amber)">
+        <h3 style="margin:0 0 12px 0;font-size:13px;color:#ffcc80"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--amber);margin-right:8px;vertical-align:middle"></span>WATCH</h3>
+        <div style="font-size:11px;line-height:1.6;color:var(--text)">
+          <div style="margin-bottom:10px"><strong>High PBI (P Fixation)</strong> — PBI 35–132. Blocks 4–5 extreme (99–132). Standard P fertiliser locks up within 24–48 hours.</div>
+          <div style="margin-bottom:10px"><strong>Potassium</strong> — Avg 49.8 ppm vs 100+ minimum. 80% deficient. Cannabis flowering K demand >100 kg/ha.</div>
+          <div style="margin-bottom:10px"><strong>Magnesium</strong> — Avg 51.4 ppm. Blocks 3, 5 severely deficient (18–20 ppm). Ca:Mg ratio 8.2 in Block 4.</div>
+          <div><strong>Boron</strong> — Avg 0.18 ppm vs 0.5 minimum. 80% deficient. Critical for flower set and cannabinoid synthesis.</div>
+        </div>
+      </div>
+
+      <!-- GREEN - ADEQUATE -->
+      <div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--green)">
+        <h3 style="margin:0 0 12px 0;font-size:13px;color:#99dd99"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--green);margin-right:8px;vertical-align:middle"></span>ADEQUATE</h3>
+        <div style="font-size:11px;line-height:1.6;color:var(--text)">
+          <div style="margin-bottom:10px"><strong>Organic Carbon (Topsoil)</strong> — Blocks 1, 2, 4 excellent (2.77–4.49%). Strong biological potential.</div>
+          <div style="margin-bottom:10px"><strong>Calcium (Topsoil)</strong> — Blocks 1, 2, 4 well-supplied (655–1080 ppm). No liming required — see Critical for oversupply note.</div>
+          <div style="margin-bottom:10px"><strong>Iron</strong> — Avg 30.4 ppm, within 10–70 range. Adequate across all blocks.</div>
+          <div><strong>Nitrogen (Topsoil)</strong> — Blocks 1, 2, 4 adequate NO₃-N (21–31 mg/kg).</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parameter Grading Table -->
+    <div style="margin-top:24px;overflow-x:auto">
+      <table class="param-table">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Farm Avg</th>
+            <th>Desired Range</th>
+            <th>Status</th>
+            <th>% Deficient</th>
+            <th>Trend</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>pH (H₂O)</td>
+            <td>5.69</td>
+            <td>6.0–7.0</td>
+            <td><span class="dot-red">●</span></td>
+            <td>100%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>ECEC</td>
+            <td>3.74 cmol/kg</td>
+            <td>5–25</td>
+            <td><span class="dot-red">●</span></td>
+            <td>60%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Organic Carbon</td>
+            <td>2.76%</td>
+            <td>1.0–3.0</td>
+            <td><span class="dot-green">●</span></td>
+            <td>0%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Colwell P</td>
+            <td>13 ppm</td>
+            <td>25–35</td>
+            <td><span class="dot-red">●</span></td>
+            <td>80%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Sulfur</td>
+            <td>4.9 ppm</td>
+            <td>10–20</td>
+            <td><span class="dot-red">●</span></td>
+            <td>100%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Calcium</td>
+            <td>596 ppm</td>
+            <td>900–1000</td>
+            <td><span class="dot-amber">●</span></td>
+            <td>40%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Magnesium</td>
+            <td>51.4 ppm</td>
+            <td>150–175</td>
+            <td><span class="dot-red">●</span></td>
+            <td>60%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Potassium</td>
+            <td>49.8 ppm</td>
+            <td>100–130</td>
+            <td><span class="dot-red">●</span></td>
+            <td>80%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Copper</td>
+            <td>0.25 ppm</td>
+            <td>0.5–5.0</td>
+            <td><span class="dot-red">●</span></td>
+            <td>80%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Zinc</td>
+            <td>0.56 ppm</td>
+            <td>1.0–5.0</td>
+            <td><span class="dot-red">●</span></td>
+            <td>80%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Boron</td>
+            <td>0.18 ppm</td>
+            <td>0.7–1.8</td>
+            <td><span class="dot-red">●</span></td>
+            <td>80%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Iron</td>
+            <td>30.4 ppm</td>
+            <td>20–60</td>
+            <td><span class="dot-green">●</span></td>
+            <td>0%</td>
+            <td>First test</td>
+          </tr>
+          <tr>
+            <td>Manganese</td>
+            <td>4.3 ppm</td>
+            <td>1–10</td>
+            <td><span class="dot-amber">●</span></td>
+            <td>40%</td>
+            <td>First test</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Nutrient Progress Bars -->
+    <div style="margin-top:24px">
+      <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:16px">Nutrient Status (% of Desired Midpoint)</div>
+      <div class="resp-grid-2">
+        <div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">ECEC</span>
+              <span class="nbar-val">3.74</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:25%"></div></div>
+            <div class="nbar-range">Target: 15 cmol/kg (25%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Organic Carbon</span>
+              <span class="nbar-val">2.76%</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-green" style="width:100%"></div></div>
+            <div class="nbar-range">Target: 2.0% (100%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">pH</span>
+              <span class="nbar-val">5.69</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-amber" style="width:88%"></div></div>
+            <div class="nbar-range">Target: 6.5 (88%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Colwell P</span>
+              <span class="nbar-val">13 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:43%"></div></div>
+            <div class="nbar-range">Target: 30 ppm (43%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Sulfur</span>
+              <span class="nbar-val">4.9 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:33%"></div></div>
+            <div class="nbar-range">Target: 15 ppm (33%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Calcium</span>
+              <span class="nbar-val">596 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-amber" style="width:63%"></div></div>
+            <div class="nbar-range">Target: 950 ppm (63%)</div>
+          </div>
+        </div>
+        <div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Magnesium</span>
+              <span class="nbar-val">51.4 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:32%"></div></div>
+            <div class="nbar-range">Target: 162 ppm (32%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Potassium</span>
+              <span class="nbar-val">49.8 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:43%"></div></div>
+            <div class="nbar-range">Target: 115 ppm (43%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Copper</span>
+              <span class="nbar-val">0.25 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:9%"></div></div>
+            <div class="nbar-range">Target: 2.75 ppm (9%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Zinc</span>
+              <span class="nbar-val">0.56 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:19%"></div></div>
+            <div class="nbar-range">Target: 3.0 ppm (19%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Boron</span>
+              <span class="nbar-val">0.18 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-red" style="width:14%"></div></div>
+            <div class="nbar-range">Target: 1.25 ppm (14%)</div>
+          </div>
+          <div class="nbar">
+            <div class="nbar-head">
+              <span class="nbar-name">Iron</span>
+              <span class="nbar-val">30.4 ppm</span>
+            </div>
+            <div class="nbar-track"><div class="nbar-fill nbar-fill-green" style="width:76%"></div></div>
+            <div class="nbar-range">Target: 40 ppm (76%)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="resp-grid-2" style="margin-top:32px;gap:24px">
+      <div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">Soil Health Radar</div>
+        <div class="chart-container"><canvas id="soilRadar"></canvas></div>
+      </div>
+      <div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">ECEC by Block</div>
+        <div class="chart-container"><canvas id="ececChart"></canvas></div>
+      </div>
+      <div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">pH vs Organic Carbon</div>
+        <div class="chart-container"><canvas id="phOcScatter"></canvas></div>
+      </div>
+      <div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">Exchangeable Cation Balance (%)</div>
+        <div class="chart-container"><canvas id="cationChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Scrollable charts -->
+    <div style="margin-top:32px">
+      <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">ECEC &amp; Sulfur by Block</div>
+      <div class="chart-scroll">
+        <div class="chart-scroll-inner">
+          <div class="resp-grid-2" style="gap:24px;padding-right:16px">
+            <div class="chart-container"><canvas id="ececPaddockChart"></canvas></div>
+            <div class="chart-container"><canvas id="sulfurPaddockChart"></canvas></div>
+          </div>
+        </div>
+      </div>
+      <div class="chart-scroll-hint">← Scroll to see all charts →</div>
+    </div>
+
+    <!-- Master Soil Samples Table -->
+    <div style="margin-top:32px">
+      <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:12px">All Soil Samples (2022 APAL Report)</div>
+      <div style="overflow-x:auto">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Block</th>
+              <th>Depth</th>
+              <th>ECEC</th>
+              <th>OC%</th>
+              <th>pH</th>
+              <th>P (ppm)</th>
+              <th>K (ppm)</th>
+              <th>S (ppm)</th>
+              <th>Cu (ppm)</th>
+              <th>Zn (ppm)</th>
+              <th>B (ppm)</th>
+              <th>Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2022</td>
+              <td>P1</td>
+              <td>0-10cm</td>
+              <td>6.70</td>
+              <td>4.46</td>
+              <td>5.54</td>
+              <td class="cell-warning">21</td>
+              <td class="cell-adequate">99</td>
+              <td class="cell-deficit">5.8</td>
+              <td class="cell-deficit">0.35</td>
+              <td class="cell-deficit">1.3</td>
+              <td class="cell-deficit">0.29</td>
+              <td>Low</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>P2</td>
+              <td>10-20cm</td>
+              <td class="cell-deficit">4.04</td>
+              <td class="cell-adequate">2.77</td>
+              <td>5.64</td>
+              <td class="cell-warning">16</td>
+              <td class="cell-deficit">54</td>
+              <td class="cell-deficit">4.6</td>
+              <td class="cell-deficit">0.22</td>
+              <td class="cell-deficit">0.61</td>
+              <td class="cell-deficit">0.17</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>P3</td>
+              <td>20-30cm</td>
+              <td class="cell-deficit">1.32</td>
+              <td class="cell-deficit">0.93</td>
+              <td>5.80</td>
+              <td class="cell-deficit">6.0</td>
+              <td class="cell-deficit">19</td>
+              <td class="cell-deficit">3.1</td>
+              <td class="cell-deficit">0.09</td>
+              <td class="cell-deficit">0.14</td>
+              <td class="cell-deficit">&lt;0.1</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>P4</td>
+              <td>0-10cm</td>
+              <td class="cell-adequate">5.09</td>
+              <td class="cell-adequate">4.49</td>
+              <td>5.67</td>
+              <td class="cell-warning">17</td>
+              <td class="cell-deficit">50</td>
+              <td class="cell-adequate">7.1</td>
+              <td class="cell-deficit">0.42</td>
+              <td class="cell-deficit">0.65</td>
+              <td class="cell-deficit">0.29</td>
+              <td>Low</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>P5</td>
+              <td>20-30cm</td>
+              <td class="cell-deficit">1.55</td>
+              <td class="cell-deficit">1.14</td>
+              <td>5.78</td>
+              <td class="cell-deficit">&lt;5</td>
+              <td class="cell-deficit">27</td>
+              <td class="cell-deficit">3.8</td>
+              <td class="cell-deficit">0.17</td>
+              <td class="cell-deficit">0.11</td>
+              <td class="cell-deficit">0.15</td>
+              <td>Moderate</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- All Soil Samples — Graded by Block -->
+    <div class="card" style="margin-top:32px">
+      <h3 style="font-size:14px;font-weight:700;color:var(--text);margin:0 0 6px 0">All Soil Samples — Graded by Block</h3>
+      <div style="font-size:11px;color:var(--dim);margin-bottom:20px">Depth profile comparison across 5 samples (2 locations × multiple depths). Green = adequate | Amber = marginal | Red = deficient. Dashed line = minimum desired threshold.</div>
+
+      <!-- Core Soil Health Indicators -->
+      <div style="margin-bottom:28px">
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:16px">Core Soil Health Indicators</div>
+        <div style="display:grid;gap:20px">
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllECEC"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllOC"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllpH"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllP"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary Nutrients & Trace Elements -->
+      <div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:16px">Secondary Nutrients & Trace Elements</div>
+        <div style="display:grid;gap:20px">
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllS"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllCu"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllZn"></canvas></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:10px;padding:14px">
+            <div style="height:250px"><canvas id="soilAllK"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soil Nutrient Balance Requirements Table -->
+    <div style="margin-top:32px">
+      <div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:8px">Soil Nutrient Balance Requirements — kg/ha to Reach Ideal</div>
+      <div style="font-size:11px;color:var(--dim);margin-bottom:16px">Calculated using Hybrid Ag base saturation &amp; ppm methodology (Albrecht/Kinsey). Based on APAL soil tests Sep 2022. Ideal targets: Ca 68% BS, Mg 12% BS, K 4–7% BS, P 30 ppm Colwell, S 10 ppm, Cu 5 ppm, Zn 7 ppm, B 2 ppm, Mn 5 ppm, Fe 20 ppm, N 30 ppm NO₃-N.</div>
+      <div style="overflow-x:auto">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Block</th>
+              <th>Ca</th>
+              <th>Mg</th>
+              <th>K</th>
+              <th>P</th>
+              <th>S</th>
+              <th>Cu</th>
+              <th>Zn</th>
+              <th>B</th>
+              <th>Mn</th>
+              <th>Fe</th>
+              <th>N</th>
+              <th>Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>P1 (0-10cm)</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-deficit">59</td>
+              <td class="cell-warning">12</td>
+              <td class="cell-warning">5</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">7</td>
+              <td class="cell-deficit">2</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-adequate">—</td>
+              <td>Low</td>
+            </tr>
+            <tr>
+              <td>P2 (10-20cm)</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">4</td>
+              <td class="cell-deficit">43</td>
+              <td class="cell-warning">18</td>
+              <td class="cell-warning">7</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">8</td>
+              <td class="cell-deficit">2</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">12</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>P3 (20-30cm)</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">2</td>
+              <td class="cell-warning">12</td>
+              <td class="cell-deficit">31</td>
+              <td class="cell-deficit">9</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">9</td>
+              <td class="cell-deficit">3</td>
+              <td class="cell-warning">5</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-deficit">29</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>P4 (0-10cm)</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">15</td>
+              <td class="cell-deficit">77</td>
+              <td class="cell-warning">17</td>
+              <td class="cell-warning">4</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">8</td>
+              <td class="cell-deficit">2</td>
+              <td class="cell-warning">1</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">9</td>
+              <td>Low</td>
+            </tr>
+            <tr>
+              <td>P5 (20-30cm)</td>
+              <td class="cell-warning">10</td>
+              <td class="cell-warning">3</td>
+              <td class="cell-warning">8</td>
+              <td class="cell-deficit">33</td>
+              <td class="cell-deficit">8</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">9</td>
+              <td class="cell-deficit">2</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-deficit">33</td>
+              <td>Moderate</td>
+            </tr>
+            <tr style="background:rgba(0,0,0,0.4);font-weight:600">
+              <td>Farm Avg</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">6</td>
+              <td class="cell-deficit">40</td>
+              <td class="cell-warning">18</td>
+              <td class="cell-deficit">7</td>
+              <td class="cell-deficit">6</td>
+              <td class="cell-deficit">8</td>
+              <td class="cell-deficit">2</td>
+              <td class="cell-warning">3</td>
+              <td class="cell-adequate">—</td>
+              <td class="cell-warning">16</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- WATER MANAGEMENT TAB -->
+<div id="water" class="tab-content">
+<div class="section-title">Water Analysis</div>
+<div style="display:grid;gap:20px">
+<div class="card" style="background:rgba(51,102,204,0.05);border:1px solid rgba(51,102,204,0.15)">
+<div class="empty-state">
+<h3>No Water Analysis Data</h3>
+<p>Water quality testing is recommended prior to foliar applications to assess hardness, pH, cation antagonism, and salt content. Irrigation water analysis is critical for precision nutrient management in cannabis cultivation.</p>
+<p style="margin-top:12px;font-size:12px;color:var(--accent);font-weight:600">Recommended tests: pH, EC, Ca, Mg, K, Na, Cl, bicarbonate alkalinity, hardness</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- TISSUE ANALYSIS TAB -->
+<div id="tissue" class="tab-content">
+<div class="section-title">Tissue Analysis</div>
+<div class="card" style="background:rgba(99,102,241,0.05);border:1px solid rgba(99,102,241,0.15)">
+<div class="empty-state">
+<h3>No Tissue Analysis Data</h3>
+<p>Tissue testing during vegetative and flowering phases provides critical insight into nutrient uptake, translocation, and cannabinoid accumulation. Three sampling events recommended: Week 6 (veg baseline), Week 10 (flowering init), Week 13 (peak flower).</p>
+<p style="margin-top:12px;font-size:12px;color:var(--accent);font-weight:600">Cannabis targets: N 3.5–5%, P 0.3–0.5%, K 2–3%, Mg 0.4–0.6%, S 0.3–0.5%</p>
+</div>
+</div>
+</div>
+
+<!-- FLOWER QUALITY TAB -->
+<div id="flower" class="tab-content">
+<div class="section-title">Flower Analysis</div>
+<div class="card" style="background:rgba(168,85,247,0.05);border:1px solid rgba(168,85,247,0.15)">
+<div class="empty-state">
+<h3>No Flower Analysis Data</h3>
+<p>Post-harvest flower quality metrics (cannabinoid profile, terpene composition, moisture, density) validate nutritional management efficacy and link soil chemistry to final product.</p>
+<p style="margin-top:12px;font-size:12px;color:var(--accent);font-weight:600">Analysis: THC%, CBD%, THCA%, CBDA%, total cannabinoids, moisture, water activity, terpene profile</p>
+</div>
+</div>
+</div>
+
+<!-- RAINFALL & WEATHER TAB -->
+<div id="rainfall" class="tab-content">
+<div class="section-title">Weather — Collie Burn WA 6225 (2016–2025)</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:20px">
+Open-Meteo ERA5 reanalysis · Collie Burn, WA 6225 (−33.35°S, 116.27°E) · GDD base 0°C (Cannabis)
+</div>
+
+<!-- ========== WEATHER TRAFFIC LIGHT ========== -->
+<div class="card" style="margin-bottom:20px">
+<h3>Key Findings — Climate & Season Traffic Light</h3>
+<div style="font-size:11px;color:var(--dim);margin-bottom:16px">10-year climate analysis (2016–2025) at Collie Burn WA — implications for cannabis cultivation and bud development</div>
+
+<div class="resp-grid-3" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px">
+
+<!-- RED -->
+<div style="background:rgba(212,93,93,0.08);border:1px solid rgba(212,93,93,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--red)">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+<div style="width:14px;height:14px;border-radius:50%;background:var(--red);flex-shrink:0"></div>
+<div style="font-size:13px;font-weight:700;color:var(--red)">CRITICAL — Climate Risk</div>
+</div>
+<div style="font-size:11px;color:var(--text);line-height:1.7">
+<div style="margin-bottom:8px"><strong>High rainfall and bud rot risk</strong> — Collie Burn averages 577 mm annual rain, 102% higher than Davenport (285 mm). Growing season rainfall (Apr–Nov) averages 489 mm vs 215 mm. Wet conditions during flowering (Jun–Aug) create severe humidity stress and powdery mildew/botrytis risk. Extended drying time on buds requires strategic canopy management and potentially early harvest before late-winter rains saturate flowers.</div>
+<div style="margin-bottom:8px"><strong>Frost damage to young plants</strong> — Coldest night on record was 0.4°C (July 2025). Multiple years show July/August mins below 7°C. Spring frosts during germination (Sep–Oct) can kill seedlings. Autumn frosts (May/early Jun) damage tender growth. Cold tolerance cultivars essential; risk frost cloth or shade during critical weeks.</div>
+<div><strong>Extreme seasonal wetness variability</strong> — GSR ranges from 389 mm (2023) to 657 mm (2021). A 1.7× swing. Two wet seasons (2021, 2020) delivered over 530 mm during grow; drought years like 2023 (389 mm) compress water availability. Unpredictable rainfall makes irrigation timing critical for bud development nutrient uptake.</div>
+</div>
+</div>
+
+<!-- AMBER -->
+<div style="background:rgba(212,163,93,0.08);border:1px solid rgba(212,163,93,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--amber)">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+<div style="width:14px;height:14px;border-radius:50%;background:var(--amber);flex-shrink:0"></div>
+<div style="font-size:13px;font-weight:700;color:var(--amber)">WATCH — Seasonal Patterns</div>
+</div>
+<div style="font-size:11px;color:var(--text);line-height:1.7">
+<div style="margin-bottom:8px"><strong>Winter-dominant rainfall</strong> — 70% of annual rain falls Jun–Aug (avg ~286 mm). This is the grow phase, which is favourable for vegetative growth and early flowering. However, sustained wetness during bud maturation (Jul–Aug) compresses the dry-down window and invites fungal disease. Target defoliation and canopy airflow for Jul–Aug to prevent bud rot during peak bloom.</div>
+<div style="margin-bottom:8px"><strong>Late-season moisture stress</strong> — September onwards averages just 52.9 mm, a sharp drop. If outdoor cannabis is grown to Oct–Nov (extended season), late-season drying stress can lock up nutrient availability and potassium mobility, reducing resin production and cannabinoid yield.</div>
+<div><strong>Humidity during critical windows</strong> — June–August avg min temps of 6–7.5°C with 50–110 mm monthly rain. High RH is nearly guaranteed. Cannabis flowering during this window demands vigilant spray schedules for mildew and botrytis, especially in weeks 6–8 of flowering when buds are densest.</div>
+</div>
+</div>
+
+<!-- GREEN -->
+<div style="background:rgba(93,168,126,0.08);border:1px solid rgba(93,168,126,0.25);border-radius:10px;padding:14px;border-top:4px solid var(--accent)">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+<div style="width:14px;height:14px;border-radius:50%;background:var(--accent);flex-shrink:0"></div>
+<div style="font-size:13px;font-weight:700;color:var(--accent)">FAVOURABLE — Opportunities</div>
+</div>
+<div style="font-size:11px;color:var(--text);line-height:1.7">
+<div style="margin-bottom:8px"><strong>GDD accumulation suitable for indoor-trained cannabis</strong> — Total annual GDD consistently 5,700–6,280. Cannabis requires 3,000–4,500 GDD for full flower cycle (10–14 weeks). Even in cool years (2025: 6,040), thermal accumulation is adequate for flowering under field conditions, though indoor/controlled environments ensure consistent ripeness.</div>
+<div style="margin-bottom:8px"><strong>Consistent cool nights support cannabinoid synthesis</strong> — Average min temps 6.6–10.6°C during growing season favour anthocyanin and cannabinoid accumulation. Cooler nights (vs high-heat regions) reduce oxidative stress and support sustained resin production. Cultivars bred for cool climates (e.g. European genetics) will thrive.</div>
+<div><strong>Good recovery potential in wet years</strong> — 2021 (780 mm), 2020 (590 mm), 2022 (577 mm) delivered excellent rainfall. In recovery years, soil moisture is ample for flowering stretch and nutrient uptake, supporting 25–30% higher yields if foliar nutrition and disease control are tight. Budget major crop for wet years; plan deficit strategy for dry ones.</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Metric Cards -->
+<div class="grid grid-4" style="margin-bottom:20px">
+<div class="card metric-card">
+<div class="value" style="font-size:18px;color:var(--accent)">577</div>
+<div class="label">Avg Annual Rain (mm)</div>
+<div class="change" style="color:var(--dim)">10-year average 2016–2025</div>
+</div>
+<div class="card metric-card">
+<div class="value" style="font-size:18px;color:var(--amber)">489</div>
+<div class="label">Avg GSR (mm)</div>
+<div class="change" style="color:var(--dim)">Apr–Nov growing season</div>
+</div>
+<div class="card metric-card">
+<div class="value" style="font-size:18px;color:var(--red)">42.0°C</div>
+<div class="label">Hottest Day</div>
+<div class="change" style="color:var(--dim)">1 Feb 2024</div>
+</div>
+<div class="card metric-card">
+<div class="value" style="font-size:18px;color:var(--accent)">0.4°C</div>
+<div class="label">Coldest Night</div>
+<div class="change" style="color:var(--dim)">26 Jul 2025</div>
+</div>
+</div>
+
+<!-- Annual Summary Table -->
+<div class="card" style="margin-bottom:20px">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">Annual Weather Summary — Collie Burn WA</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:12px">Open-Meteo ERA5 reanalysis at −33.35°S, 116.27°E · GSR = Growing Season Rainfall (Apr–Nov)</div>
+<div class="table-wrap">
+<table>
+<thead><tr>
+<th>Year</th><th>Total Rain (mm)</th><th>GSR (mm)</th><th>Avg Max °C</th><th>Avg Min °C</th><th>Total GDD</th><th>Season Notes</th>
+</tr></thead>
+<tbody>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2016</td><td>670</td><td style="color:var(--accent)">497</td><td>20.6</td><td>10.5</td><td>5700</td><td style="font-size:10px;color:var(--dim)">Good rain, cool grow</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2017</td><td>568</td><td style="color:var(--accent)">395</td><td>21.4</td><td>10.2</td><td>5779</td><td style="font-size:10px;color:var(--dim)">Moderate GSR</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2018</td><td>603</td><td style="color:var(--accent)">502</td><td>21.4</td><td>10.0</td><td>5726</td><td style="font-size:10px;color:var(--dim)">Excellent GSR, cool</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2019</td><td>456</td><td style="color:var(--amber)">415</td><td>22.7</td><td>10.2</td><td>6010</td><td style="font-size:10px;color:var(--dim)">Lower rain but warm</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2020</td><td>590</td><td style="color:var(--accent);font-weight:700">535</td><td>22.0</td><td>10.6</td><td>5971</td><td style="font-size:10px;color:var(--accent)">Excellent GSR — wet grow</td></tr>
+<tr style="background:rgba(93,168,126,0.06)"><td style="font-weight:700;font-family:'DM Mono',monospace;color:var(--accent)">2021</td><td style="color:var(--accent);font-weight:700">780</td><td style="color:var(--accent);font-weight:700">657</td><td>21.4</td><td>10.4</td><td>5803</td><td style="font-size:10px;color:var(--accent)">Best on record — very wet</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2022</td><td>577</td><td style="color:var(--accent)">516</td><td>21.8</td><td>10.2</td><td>5845</td><td style="font-size:10px;color:var(--dim)">Above average, good balance</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2023</td><td>478</td><td style="color:var(--amber)">389</td><td>22.7</td><td>10.4</td><td>6027</td><td style="font-size:10px;color:var(--dim)">Low GSR, dry stretch</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2024</td><td>521</td><td style="color:var(--accent)">505</td><td>23.3</td><td>11.0</td><td>6279</td><td style="font-size:10px;color:var(--dim)">Good rain, warmest year</td></tr>
+<tr><td style="font-weight:700;font-family:'DM Mono',monospace">2025</td><td>524</td><td style="color:var(--accent)">481</td><td>22.9</td><td>10.2</td><td>6040</td><td style="font-size:10px;color:var(--dim)">Moderate, typical spring frost</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Charts -->
+<div class="card" style="margin-bottom:20px">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">10-Year Rainfall Trend</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:16px">Annual rainfall vs growing season rainfall (Apr–Nov) · Dashed line = 10-year average</div>
+<div style="height:280px"><canvas id="wxAnnualRain"></canvas></div>
+</div>
+
+<div class="grid grid-2" style="margin-bottom:20px">
+<div class="card">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">Monthly Temperature Profile</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:12px">Average monthly max/min (°C) across 2016–2025</div>
+<div style="height:280px"><canvas id="wxTemp"></canvas></div>
+</div>
+<div class="card">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">Growing Season Rainfall by Year</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:12px">Monthly rainfall (mm) Apr–Nov · Dashed = avg GSR</div>
+<div style="height:280px"><canvas id="wxGSRain"></canvas></div>
+</div>
+</div>
+
+<div class="card" style="margin-bottom:20px">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">Cumulative Growing Degree Days by Year</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:12px">GDD base 0°C accumulated Apr–Nov · Cannabis typically needs 3,000–4,500 GDD for full flower cycle</div>
+<div style="height:280px"><canvas id="wxGDD"></canvas></div>
+</div>
+
+<!-- Monthly averages reference -->
+<div class="card" style="margin-bottom:20px">
+<div style="font-size:15px;font-weight:700;margin-bottom:4px">Monthly Climate Averages — Collie Burn WA (2016–2025)</div>
+<div style="font-size:11px;color:var(--dim);margin-bottom:12px">10-year averages from Open-Meteo ERA5 reanalysis at Collie Burn coordinates</div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Month</th><th>Avg Max °C</th><th>Avg Min °C</th><th>Avg Rainfall (mm)</th><th>Rain Days</th><th>Season Role</th></tr></thead>
+<tbody>
+<tr><td style="font-weight:600">January</td><td>30.5</td><td>14.8</td><td>13.9</td><td>3.3</td><td style="font-size:10px;color:var(--dim)">Off-season fallow — hot & dry</td></tr>
+<tr><td style="font-weight:600">February</td><td>29.7</td><td>15.0</td><td>24.5</td><td>3.3</td><td style="font-size:10px;color:var(--dim)">Late summer storms possible</td></tr>
+<tr><td style="font-weight:600">March</td><td>27.0</td><td>14.2</td><td>30.8</td><td>6.8</td><td style="font-size:10px;color:var(--dim)">Autumn break arrives</td></tr>
+<tr style="background:rgba(93,168,126,0.04)"><td style="font-weight:600;color:var(--accent)">April</td><td>22.6</td><td>11.3</td><td>34.6</td><td>8.0</td><td style="font-size:10px;color:var(--accent)">Season opening — plant start</td></tr>
+<tr style="background:rgba(93,168,126,0.04)"><td style="font-weight:600;color:var(--accent)">May</td><td>19.0</td><td>9.0</td><td style="color:var(--accent)">56.8</td><td>11.3</td><td style="font-size:10px;color:var(--accent)">Establishment & early veg</td></tr>
+<tr style="background:rgba(93,168,126,0.06)"><td style="font-weight:600;color:var(--accent)">June</td><td>15.8</td><td>7.5</td><td style="color:var(--accent);font-weight:700">82.5</td><td>14.6</td><td style="font-size:10px;color:var(--accent)">Peak rain — veg stretch begins</td></tr>
+<tr style="background:rgba(93,168,126,0.06)"><td style="font-weight:600;color:var(--accent)">July</td><td>14.9</td><td>6.9</td><td style="color:var(--accent);font-weight:700">106.3</td><td>18.9</td><td style="font-size:10px;color:var(--accent)">Wettest month — early flowering</td></tr>
+<tr style="background:rgba(93,168,126,0.06)"><td style="font-weight:600;color:var(--accent)">August</td><td>15.5</td><td>6.6</td><td style="color:var(--accent);font-weight:700">97.9</td><td>17.0</td><td style="font-size:10px;color:var(--accent)">Bud development & high bud rot risk</td></tr>
+<tr style="background:rgba(212,163,93,0.04)"><td style="font-weight:600;color:var(--amber)">September</td><td>17.4</td><td>7.2</td><td style="color:var(--amber)">52.9</td><td>13.8</td><td style="font-size:10px;color:var(--amber)">Late bud maturation — drying begins</td></tr>
+<tr style="background:rgba(212,163,93,0.04)"><td style="font-weight:600;color:var(--amber)">October</td><td>19.8</td><td>8.5</td><td style="color:var(--amber)">36.4</td><td>11.0</td><td style="font-size:10px;color:var(--amber)">Harvest window — bud finishing</td></tr>
+<tr><td style="font-weight:600">November</td><td>24.0</td><td>10.6</td><td>21.9</td><td>8.2</td><td style="font-size:10px;color:var(--dim)">Late harvest & cleanup</td></tr>
+<tr><td style="font-weight:600">December</td><td>28.6</td><td>13.2</td><td>18.2</td><td>3.6</td><td style="font-size:10px;color:var(--dim)">Holiday season & dry-down complete</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Climate Observations -->
+<div class="card" style="margin-bottom:20px;border:1px solid rgba(93,168,126,0.25)">
+<div style="font-size:15px;font-weight:700;margin-bottom:8px;color:var(--accent)">Climate Observations & Nutrition Implications</div>
+<div style="font-size:13px;line-height:1.9;color:#ccc">
+<div class="obs-section" style="background:#d4a35d10;border-left:3px solid var(--amber)">
+<div class="obs-label" style="color:var(--amber)">Wet Climate & Disease Pressure</div>
+<p>Collie Burn's 577 mm avg annual rainfall is extreme by WA standards — double the Pithara wheatbelt. Growing season rainfall (489 mm Apr–Nov) dominates June–August when cannabis is in veg–early flower transition. Sustained wet conditions drive powdery mildew, botrytis cinerea, and damping-off risk on seedlings. Fungicide rotation and canopy airflow are non-negotiable. Plan for weekly preventive sprays (e.g., potassium bicarbonate, sulphur, copper oxychloride) during Jun–Aug. Strategic early harvest (mid-September) avoids late-winter rains saturating flowers.</p>
+</div>
+<div class="obs-section" style="background:#d45d5d10;border-left:3px solid var(--red)">
+<div class="obs-label" style="color:var(--red)">Frost Risk & Young Plant Protection</div>
+<p>July and August min temps average 6.9–7.2°C. Coldest night on record (0.4°C, July 2025) shows frost is real risk. Cannabis seedlings and young transplants are killed by hard frost. Spring frost events (May–Jun) damage tender vegetative growth; autumn frost (late Sep–Oct) can surprise late-harvest crops. Cultivar selection toward cold-hardy genotypes essential. Employ frost cloth during critical weeks (first 4 weeks post-plant in April). For extended fall harvest, time crop to finish by mid-Sep before cold snaps intensify.</p>
+</div>
+<div class="obs-section" style="background:#5da87e10;border-left:3px solid var(--accent)">
+<div class="obs-label" style="color:var(--accent)">Nutrient Uptake During Wet Periods & Foliar Strategy</div>
+<p>The Jun–Aug rainfall peak (average 287 mm) is the grow's critical nutrient uptake window. However, high soil moisture and cool temps reduce nutrient cycling speed. Phosphorus availability declines in wet, cool conditions (less microbial mineralization). Foliar feeding becomes primary delivery route: weekly NPK 10-6-20 during veg (May–Jun), then 5-8-20 during bud formation (Jul–Aug). Pair foliar program with root feeding via liquid fish or seaweed extract weekly. In wet years (2020, 2021 >530mm GSR), tissue test at week 6 and week 10 to identify deficiencies early; adjust foliar formulation if P, K, or Mg status lag. In dry years (2023: 389mm), reduce spray frequency to avoid nutrient leaching.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- TRIALS & EXPERIMENTS TAB -->
+<div id="trials" class="tab-content">
+<div class="section-title">Trials &amp; Testing</div>
+<div class="card" style="background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.15)">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+<span style="display:inline-block;padding:3px 10px;border-radius:4px;font-size:10px;font-weight:700;background:rgba(212,163,93,0.15);color:var(--amber);border:1px solid rgba(212,163,93,0.3)">PENDING</span>
+<span style="font-size:13px;font-weight:700;color:var(--text)">Real-Time Testing &amp; Tissue Analysis</span>
+</div>
+<p style="font-size:12px;color:var(--dim);line-height:1.7">Jamie Granger and Cannaponics have discussed real-time testing unit trials and firming up a tissue test partner that can accept cannabis samples.</p>
+</div>
+</div>
+
+<!-- FIELD MAP TAB -->
+<div id="map" class="tab-content">
+<div class="section-title">Rotation, Amelioration &amp; Satellite Imagery</div>
+<div class="card" style="background:rgba(93,168,126,0.05);border:1px solid rgba(93,168,126,0.15);margin-bottom:20px">
+<div style="font-size:12px;color:var(--text);line-height:1.7">
+<strong style="color:var(--accent)">2 sample sites plotted from APAL GPS data (Sep 2022)</strong><br>
+We can map your entire farm if you supply a KMZ file — we'll import block boundaries, overlay soil chemistry, and build a spatial nutrient map. If you have a history of amelioration (lime, gypsum, compost, etc.) we can incorporate that too and work it forward into your program.
+</div>
+</div>
+<div id="leaflet-map" style="height:600px;border-radius:12px;border:1px solid var(--border)"></div>
+<div class="resp-grid-2" style="margin-top:16px">
+<div style="background:rgba(93,168,126,0.06);border:1px solid rgba(93,168,126,0.15);border-radius:8px;padding:14px">
+<div style="font-size:11px;font-weight:700;color:var(--accent);margin-bottom:6px">Site A — Blocks 1, 2, 3</div>
+<div style="font-size:10px;color:var(--dim);line-height:1.6">GPS: -33.39993, 116.22427<br>Soil type: Sand<br>Depth profile: 0-10cm, 10-20cm, 20-30cm<br>ECEC range: 1.32 – 6.70 cmol/kg</div>
+</div>
+<div style="background:rgba(99,102,241,0.06);border:1px solid rgba(99,102,241,0.15);border-radius:8px;padding:14px">
+<div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px">Site B — Blocks 4, 5</div>
+<div style="font-size:10px;color:var(--dim);line-height:1.6">GPS: -33.39897, 116.22295<br>Soil type: Sandy loam<br>Depth profile: 0-10cm, 20-30cm<br>ECEC range: 1.55 – 5.09 cmol/kg</div>
+</div>
+</div>
+</div>
+
+<!-- OVERVIEW & TIMELINE TAB -->
+<div id="overview" class="tab-content">
+<div class="section-title">Overview &amp; Timeline</div>
+
+<!-- Advisory Team Summary -->
+<div class="card" style="margin-bottom:20px">
+<h3 style="font-size:14px;font-weight:700;color:var(--text);margin:0 0 16px 0">Advisory Team at a Glance</h3>
+<div class="resp-grid-2">
+<div style="padding:14px;border-radius:8px;background:rgba(99,102,241,0.04);border:1px solid rgba(99,102,241,0.15)">
+<div style="font-size:13px;font-weight:700;color:var(--blue);margin-bottom:8px">2022 — Hi-Tech Ag Solutions</div>
+<div style="font-size:11px;color:var(--dim);line-height:1.8">
+<div style="color:var(--text);font-weight:600">Luke Freeman — Program Manager</div>
+<div><span style="color:var(--text);font-weight:600;font-family:'DM Mono',monospace">5</span> blocks sampled · <span style="color:var(--text);font-weight:600;font-family:'DM Mono',monospace">1</span> APAL report</div>
+<div>Initial soil analysis &amp; interpretation</div>
+<div>Identified pH, S, P fixation, Al toxicity constraints</div>
+</div>
+</div>
+<div style="padding:14px;border-radius:8px;background:rgba(212,163,93,0.04);border:1px solid rgba(212,163,93,0.15)">
+<div style="font-size:13px;font-weight:700;color:var(--amber);margin-bottom:8px">2026 — Hybrid Ag Solutions</div>
+<div style="font-size:11px;color:var(--dim);line-height:1.8">
+<div style="color:var(--text);font-weight:600">Jamie Granger — Program Manager</div>
+<div style="color:var(--text);font-weight:600">Nathan Katseli — Data &amp; Trends</div>
+<div style="margin-top:4px">Client dashboard prepared from APAL Batch #31062</div>
+<div>Cannabis-specific nutritional program development being discussed &amp; further testing and data collection</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Timeline -->
+<div class="card" style="margin-bottom:20px;border-left:3px solid var(--blue)">
+<h3 style="font-size:14px;font-weight:700;color:var(--blue);margin:0 0 4px 0">Program Timeline</h3>
+<h4 style="font-size:11px;font-weight:400;color:var(--dim);margin:0 0 16px 0">Cannaponics — Collie Burn, WA 6225</h4>
+<div class="timeline" style="margin-top:16px">
+<div class="timeline-item">
+<div class="year">Sep 2022</div>
+<div class="desc">Luke Freeman (Hi-Tech Ag Solutions) conducted soil analysis across 5 outdoor blocks at Collie Burn. Samples submitted to APAL (Batch #31062) covering depth profiles at two sites. Luke provided an interpretation report identifying key constraints: low pH (5.54–5.80), sulfur deficiency (&lt;5 mg/kg), high P fixation (PBI 35–132), and aluminium toxicity in subsoils.</div>
+</div>
+<div class="timeline-item">
+<div class="year">Mar 2026</div>
+<div class="desc">Jamie Granger (Hybrid Ag Solutions) met with Cannaponics management and commenced discussions around testing, nutrition programming, and cannabis-specific soil management. The APAL data from Luke Freeman's 2022 sampling was received and Nathan Katseli prepared this client dashboard — consolidating batch data into trends and data in one platform. We need to establish clear KPI benchmarks and obtain all data you currently have to formulate a clear overlay to give further direction. We'll continue to build this out with more detail.</div>
+<div class="desc" style="margin-top:10px;padding-left:12px;border-left:2px solid var(--accent)"><strong style="color:var(--accent)">Action — Nathan Katseli:</strong> Introduce a comparison timeline to show clear correlation between trends. Once we have additional data points (soil retests, tissue results, yield records, amelioration history), we'll overlay a comparison timeline showing how key metrics track season-on-season — giving a clear visual correlation between inputs, soil health trends, and crop performance over time.</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script>
+// TAB SWITCHING
+function updateTabColors() {
+  document.querySelectorAll('.tab').forEach(function(t) {
+    var count = t.querySelector('.tab-count');
+    var caption = t.querySelector('.tab-caption');
+    if (t.classList.contains('active')) {
+      if (count) count.style.color = '#0f1117';
+      if (caption) caption.style.color = '#0f1117';
+    } else {
+      if (count) count.style.color = count.getAttribute('data-color') || '';
+      if (caption) caption.style.color = '';
+    }
+  });
+}
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const tabName = tab.getAttribute('data-tab');
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(tabName).classList.add('active');
+    updateTabColors();
+    if (tabName === 'map') initMap();
+    if (tabName === 'rainfall') setTimeout(initWeather, 100);
+    if (tabName === 'soil') {
+      setTimeout(() => {
+        initSoilRadar();
+        initEcecChart();
+        initPhOcScatter();
+        initCationChart();
+        initEcecPaddockChart();
+        initSulfurPaddockChart();
+        initSoilAllCharts();
+      }, 300);
+    }
+  });
+});
+
+// Initialize tab colors and charts on page load
+updateTabColors();
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    initSoilRadar();
+    initEcecChart();
+    initPhOcScatter();
+    initCationChart();
+    initEcecPaddockChart();
+    initSulfurPaddockChart();
+    initSoilAllCharts();
+  }, 100);
+});
+
+// SOIL RADAR CHART
+function initSoilRadar() {
+  const ctx = document.getElementById('soilRadar');
+  if (!ctx) return;
+  if (window.soilRadarChart instanceof Chart) window.soilRadarChart.destroy();
+
+  window.soilRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: ['pH', 'ECEC', 'OC', 'P', 'S', 'Ca', 'Mg', 'K', 'Cu', 'Zn', 'B', 'Fe'],
+      datasets: [
+        {
+          label: 'Farm Avg (%)',
+          data: [88, 25, 100, 43, 33, 63, 32, 43, 9, 19, 14, 76],
+          borderColor: '#5da87e',
+          backgroundColor: 'rgba(93,168,126,0.1)',
+          borderWidth: 2,
+          pointBackgroundColor: '#5da87e',
+          pointBorderColor: '#fff',
+          pointRadius: 3,
+          pointHoverRadius: 5
+        },
+        {
+          label: 'Ideal (100%)',
+          data: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+          borderColor: 'rgba(122,122,138,0.5)',
+          borderDash: [5, 5],
+          borderWidth: 1,
+          pointRadius: 0,
+          fill: false
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          labels: {
+            color: '#e8e4df',
+            font: { size: 11 }
+          }
+        }
+      },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)'
+          }
+        }
+      }
+    }
+  });
+}
+
+// ECEC CHART
+function initEcecChart() {
+  const ctx = document.getElementById('ececChart');
+  if (!ctx) return;
+  if (window.ececChart instanceof Chart) window.ececChart.destroy();
+
+  window.ececChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+      datasets: [
+        {
+          label: 'ECEC (cmol/kg)',
+          data: [6.70, 4.04, 1.32, 5.09, 1.55],
+          backgroundColor: ['#22c55e', '#f59e0b', '#d45d5d', '#22c55e', '#d45d5d'],
+          borderRadius: 4,
+          borderWidth: 0
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          labels: {
+            color: '#e8e4df',
+            font: { size: 11 }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 8,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        },
+        x: {
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            display: false
+          }
+        }
+      }
+    }
+  });
+}
+
+// pH vs OC SCATTER
+function initPhOcScatter() {
+  const ctx = document.getElementById('phOcScatter');
+  if (!ctx) return;
+  if (window.phOcScatterChart instanceof Chart) window.phOcScatterChart.destroy();
+
+  window.phOcScatterChart = new Chart(ctx, {
+    type: 'scatter',
+    data: {
+      datasets: [
+        {
+          label: 'Blocks',
+          data: [
+            { x: 5.54, y: 4.46, label: 'P1 (0-10)' },
+            { x: 5.64, y: 2.77, label: 'P2 (10-20)' },
+            { x: 5.80, y: 0.93, label: 'P3 (20-30)' },
+            { x: 5.67, y: 4.49, label: 'P4 (0-10)' },
+            { x: 5.78, y: 1.14, label: 'P5 (20-30)' }
+          ],
+          backgroundColor: ['#22c55e', '#f59e0b', '#d45d5d', '#22c55e', '#d45d5d'],
+          borderColor: '#fff',
+          borderWidth: 1,
+          pointRadius: 6,
+          pointHoverRadius: 8
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          labels: {
+            color: '#e8e4df',
+            font: { size: 11 }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: (context) => {
+              const point = context.raw;
+              return point.label + ': pH ' + point.x.toFixed(2) + ', OC ' + point.y.toFixed(2) + '%';
+            }
+          },
+          backgroundColor: 'rgba(0,0,0,0.8)',
+          titleColor: '#e8e4df',
+          bodyColor: '#e8e4df',
+          borderColor: '#5da87e',
+          borderWidth: 1
+        }
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          title: {
+            display: true,
+            text: 'pH',
+            color: '#7a7a8a',
+            font: { size: 11 }
+          },
+          min: 5.4,
+          max: 5.9,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        },
+        y: {
+          title: {
+            display: true,
+            text: 'Organic Carbon (%)',
+            color: '#7a7a8a',
+            font: { size: 11 }
+          },
+          beginAtZero: true,
+          max: 5,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        }
+      }
+    }
+  });
+}
+
+// CATION CHART
+function initCationChart() {
+  const ctx = document.getElementById('cationChart');
+  if (!ctx) return;
+  if (window.cationChart instanceof Chart) window.cationChart.destroy();
+
+  window.cationChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+      datasets: [
+        {
+          label: 'Ca %',
+          data: [80.7, 81.2, 73.5, 83.6, 65.5],
+          backgroundColor: '#22c55e'
+        },
+        {
+          label: 'Mg %',
+          data: [12.3, 11.4, 11.2, 10.2, 10.6],
+          backgroundColor: '#f59e0b'
+        },
+        {
+          label: 'K %',
+          data: [3.78, 3.42, 3.68, 2.51, 4.45],
+          backgroundColor: '#3b82f6'
+        },
+        {
+          label: 'Na %',
+          data: [1.42, 1.14, 1.5, 1.16, 1.5],
+          backgroundColor: '#8b5cf6'
+        },
+        {
+          label: 'Al %',
+          data: [0.7, 1.0, 4.5, 0.9, 12.6],
+          backgroundColor: '#d45d5d'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      indexAxis: 'y',
+      plugins: {
+        legend: {
+          labels: {
+            color: '#e8e4df',
+            font: { size: 11 }
+          }
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        },
+        y: {
+          stacked: true,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            display: false
+          }
+        }
+      }
+    }
+  });
+}
+
+// ECEC PADDOCK CHART
+function initEcecPaddockChart() {
+  const ctx = document.getElementById('ececPaddockChart');
+  if (!ctx) return;
+  if (window.ececPaddockChart instanceof Chart) window.ececPaddockChart.destroy();
+
+  window.ececPaddockChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+      datasets: [
+        {
+          label: 'ECEC (cmol/kg)',
+          data: [6.70, 4.04, 1.32, 5.09, 1.55],
+          backgroundColor: ['#22c55e', '#f59e0b', '#d45d5d', '#22c55e', '#d45d5d'],
+          borderRadius: 4,
+          borderWidth: 0
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 8,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        },
+        x: {
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            display: false
+          }
+        }
+      }
+    }
+  });
+}
+
+// SULFUR PADDOCK CHART
+function initSulfurPaddockChart() {
+  const ctx = document.getElementById('sulfurPaddockChart');
+  if (!ctx) return;
+  if (window.sulfurPaddockChart instanceof Chart) window.sulfurPaddockChart.destroy();
+
+  window.sulfurPaddockChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+      datasets: [
+        {
+          label: 'Sulfur (ppm)',
+          data: [5.8, 4.6, 3.1, 7.1, 3.8],
+          backgroundColor: ['#d45d5d', '#d45d5d', '#d45d5d', '#f59e0b', '#d45d5d'],
+          borderRadius: 4,
+          borderWidth: 0
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 10,
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            color: 'rgba(255,255,255,0.06)',
+            drawBorder: false
+          }
+        },
+        x: {
+          ticks: {
+            color: '#7a7a8a',
+            font: { size: 10 }
+          },
+          grid: {
+            display: false
+          }
+        }
+      }
+    }
+  });
+}
+
+// SOIL ALL PADDOCK COMPARISON CHARTS
+function initSoilAllCharts() {
+  // Threshold line plugin
+  const thresholdPlugin = {
+    id: 'threshold',
+    afterDraw(chart) {
+      const threshold = chart.options.plugins.threshold?.value;
+      if (threshold == null) return;
+      const yAxis = chart.scales.y;
+      const y = yAxis.getPixelForValue(threshold);
+      const ctx = chart.ctx;
+      ctx.save();
+      ctx.beginPath();
+      ctx.setLineDash([6, 4]);
+      ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+      ctx.lineWidth = 1;
+      ctx.moveTo(chart.chartArea.left, y);
+      ctx.lineTo(chart.chartArea.right, y);
+      ctx.stroke();
+      // Label
+      ctx.fillStyle = 'rgba(255,255,255,0.4)';
+      ctx.font = '9px "Instrument Sans", sans-serif';
+      ctx.textAlign = 'right';
+      ctx.fillText('Min desired', chart.chartArea.right - 4, y - 4);
+      ctx.restore();
+    }
+  };
+
+  // Block data from Sep 2022 APAL test
+  const paddockData = {
+    P1: { ecec: 6.70, oc: 4.46, ph: 5.54, p: 21, s: 5.8, cu: 0.35, zn: 1.3, k: 99 },
+    P2: { ecec: 4.04, oc: 2.77, ph: 5.64, p: 16, s: 4.6, cu: 0.22, zn: 0.61, k: 54 },
+    P3: { ecec: 1.32, oc: 0.93, ph: 5.80, p: 6, s: 3.1, cu: 0.09, zn: 0.14, k: 19 },
+    P4: { ecec: 5.09, oc: 4.49, ph: 5.67, p: 17, s: 7.1, cu: 0.42, zn: 0.65, k: 50 },
+    P5: { ecec: 1.55, oc: 1.14, ph: 5.78, p: 5, s: 3.8, cu: 0.17, zn: 0.11, k: 27 }
+  };
+
+  // Helper: Get color based on value vs desired range
+  function getColor(value, min, max) {
+    const midpoint = (min + max) / 2;
+    if (value < min * 0.8) return '#d45d5d'; // Red - deficient
+    if (value < min) return '#f59e0b'; // Amber - marginal
+    return '#22c55e'; // Green - adequate
+  }
+
+  // ECEC Chart
+  if (document.getElementById('soilAllECEC')) {
+    const ctx = document.getElementById('soilAllECEC');
+    if (window.soilAllECECChart instanceof Chart) window.soilAllECECChart.destroy();
+
+    const ececValues = [6.70, 4.04, 1.32, 5.09, 1.55];
+    const ececColors = ececValues.map(v => getColor(v, 5, 25));
+
+    window.soilAllECECChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'ECEC (cmol/kg)',
+          data: ececValues,
+          backgroundColor: ececColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 5 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'ECEC — Effective Cation Exchange Capacity (cmol/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 5–25 cmol/kg'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 25,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Organic Carbon Chart
+  if (document.getElementById('soilAllOC')) {
+    const ctx = document.getElementById('soilAllOC');
+    if (window.soilAllOCChart instanceof Chart) window.soilAllOCChart.destroy();
+
+    const ocValues = [4.46, 2.77, 0.93, 4.49, 1.14];
+    const ocColors = ocValues.map(v => getColor(v, 1.0, 3.0));
+
+    window.soilAllOCChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Organic Carbon (%)',
+          data: ocValues,
+          backgroundColor: ocColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 1.0 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Organic Carbon (% W&B at 40°C)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 1.0–3.0%'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 5,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // pH Chart
+  if (document.getElementById('soilAllpH')) {
+    const ctx = document.getElementById('soilAllpH');
+    if (window.soilAllpHChart instanceof Chart) window.soilAllpHChart.destroy();
+
+    const phValues = [5.54, 5.64, 5.80, 5.67, 5.78];
+    const phColors = phValues.map(v => getColor(v, 6.0, 7.0));
+
+    window.soilAllpHChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'pH (H₂O)',
+          data: phValues,
+          backgroundColor: phColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 6.0 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'pH (H₂O 1:5)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 6.0–7.0'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            min: 5,
+            max: 8,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Colwell P Chart
+  if (document.getElementById('soilAllP')) {
+    const ctx = document.getElementById('soilAllP');
+    if (window.soilAllPChart instanceof Chart) window.soilAllPChart.destroy();
+
+    const pValues = [21, 16, 6, 17, 5];
+    const pColors = pValues.map(v => getColor(v, 25, 35));
+
+    window.soilAllPChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Colwell P (ppm)',
+          data: pValues,
+          backgroundColor: pColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 25 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Colwell Phosphorus (mg/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 25–35 ppm'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 35,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Sulfur Chart
+  if (document.getElementById('soilAllS')) {
+    const ctx = document.getElementById('soilAllS');
+    if (window.soilAllSChart instanceof Chart) window.soilAllSChart.destroy();
+
+    const sValues = [5.8, 4.6, 3.1, 7.1, 3.8];
+    const sColors = sValues.map(v => getColor(v, 10, 20));
+
+    window.soilAllSChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Sulfur (ppm)',
+          data: sValues,
+          backgroundColor: sColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 10 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'KCl Sulfur (mg/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 10–20 ppm'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 20,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Copper Chart
+  if (document.getElementById('soilAllCu')) {
+    const ctx = document.getElementById('soilAllCu');
+    if (window.soilAllCuChart instanceof Chart) window.soilAllCuChart.destroy();
+
+    const cuValues = [0.35, 0.22, 0.09, 0.42, 0.17];
+    const cuColors = cuValues.map(v => getColor(v, 0.5, 5.0));
+
+    window.soilAllCuChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Copper (ppm)',
+          data: cuValues,
+          backgroundColor: cuColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 0.5 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Copper — DTPA Extractable (mg/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 0.5–5.0 ppm'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 5,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Zinc Chart
+  if (document.getElementById('soilAllZn')) {
+    const ctx = document.getElementById('soilAllZn');
+    if (window.soilAllZnChart instanceof Chart) window.soilAllZnChart.destroy();
+
+    const znValues = [1.3, 0.61, 0.14, 0.65, 0.11];
+    const znColors = znValues.map(v => getColor(v, 1.0, 5.0));
+
+    window.soilAllZnChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Zinc (ppm)',
+          data: znValues,
+          backgroundColor: znColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 1.0 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Zinc — DTPA Extractable (mg/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 1.0–5.0 ppm'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 5,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+
+  // Potassium Chart
+  if (document.getElementById('soilAllK')) {
+    const ctx = document.getElementById('soilAllK');
+    if (window.soilAllKChart instanceof Chart) window.soilAllKChart.destroy();
+
+    const kValues = [99, 54, 19, 50, 27];
+    const kColors = kValues.map(v => getColor(v, 100, 130));
+
+    window.soilAllKChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['P1 (0-10)', 'P2 (10-20)', 'P3 (20-30)', 'P4 (0-10)', 'P5 (20-30)'],
+        datasets: [{
+          label: 'Potassium (ppm)',
+          data: kValues,
+          backgroundColor: kColors,
+          borderRadius: 4,
+          borderWidth: 0
+        }]
+      },
+      plugins: [thresholdPlugin],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          threshold: { value: 100 },
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Potassium — Exchangeable (mg/kg)',
+            color: '#e8e4df',
+            font: { size: 12, weight: '600' },
+            padding: { bottom: 12 }
+          },
+          tooltip: {
+            callbacks: {
+              afterLabel: () => 'Desired: 100–130 ppm'
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 130,
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)', drawBorder: false }
+          },
+          x: {
+            ticks: { color: '#7a7a8a', font: { size: 10 } },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+  }
+}
+
+// MAP INITIALIZATION
+function initMap() {
+  if (window.mapInitialized) return;
+  window.mapInitialized = true;
+
+  var siteA = [-33.399927, 116.224270];
+  var siteB = [-33.398975, 116.222947];
+  var center = [(siteA[0]+siteB[0])/2, (siteA[1]+siteB[1])/2];
+
+  var map = L.map('leaflet-map').setView(center, 17);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 19
+  }).addTo(map);
+
+  // Custom icon helper
+  function makeIcon(color) {
+    return L.divIcon({
+      className: '',
+      html: '<div style="width:28px;height:28px;border-radius:50%;background:'+color+';border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff"></div>',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+      popupAnchor: [0, -16]
+    });
+  }
+
+  // Site A marker (green - Blocks 1,2,3)
+  L.marker(siteA, { icon: makeIcon('#5da87e') }).addTo(map)
+    .bindPopup(
+      '<div style="font-family:Instrument Sans,sans-serif;min-width:220px">' +
+      '<div style="font-weight:700;font-size:13px;margin-bottom:6px;color:#222">Site A — Blocks 1, 2, 3</div>' +
+      '<div style="font-size:11px;color:#555;line-height:1.6;margin-bottom:8px">GPS: -33.39993, 116.22427<br>Soil: Sand · Collie Burn, WA 6225</div>' +
+      '<table style="width:100%;font-size:10px;border-collapse:collapse">' +
+      '<tr style="background:#f0f0f0;font-weight:600"><td style="padding:4px 6px">Block</td><td>Depth</td><td>ECEC</td><td>pH</td><td>OC%</td></tr>' +
+      '<tr><td style="padding:3px 6px">P1</td><td>0-10cm</td><td>6.70</td><td>5.54</td><td>4.46</td></tr>' +
+      '<tr style="background:#f8f8f8"><td style="padding:3px 6px">P2</td><td>10-20cm</td><td>4.04</td><td>5.64</td><td>2.77</td></tr>' +
+      '<tr><td style="padding:3px 6px">P3</td><td>20-30cm</td><td>1.32</td><td>5.80</td><td>0.93</td></tr>' +
+      '</table></div>',
+      { maxWidth: 300 }
+    );
+
+  // Site B marker (blue - Blocks 4,5)
+  L.marker(siteB, { icon: makeIcon('#6366f1') }).addTo(map)
+    .bindPopup(
+      '<div style="font-family:Instrument Sans,sans-serif;min-width:220px">' +
+      '<div style="font-weight:700;font-size:13px;margin-bottom:6px;color:#222">Site B — Blocks 4, 5</div>' +
+      '<div style="font-size:11px;color:#555;line-height:1.6;margin-bottom:8px">GPS: -33.39897, 116.22295<br>Soil: Sandy loam · Collie Burn, WA 6225</div>' +
+      '<table style="width:100%;font-size:10px;border-collapse:collapse">' +
+      '<tr style="background:#f0f0f0;font-weight:600"><td style="padding:4px 6px">Block</td><td>Depth</td><td>ECEC</td><td>pH</td><td>OC%</td></tr>' +
+      '<tr><td style="padding:3px 6px">P4</td><td>0-10cm</td><td>5.09</td><td>5.67</td><td>4.49</td></tr>' +
+      '<tr style="background:#f8f8f8"><td style="padding:3px 6px">P5</td><td>20-30cm</td><td>1.55</td><td>5.78</td><td>1.14</td></tr>' +
+      '</table></div>',
+      { maxWidth: 300 }
+    );
+
+  // Draw a subtle line between the two sites
+  L.polyline([siteA, siteB], {
+    color: 'rgba(255,255,255,0.2)',
+    weight: 1,
+    dashArray: '6,4'
+  }).addTo(map);
+
+  // Fit bounds to show both markers
+  map.fitBounds([siteA, siteB], { padding: [80, 80], maxZoom: 17 });
+}
+
+// WEATHER ANALYSIS INITIALIZATION
+var wxInited=false;
+function initWeather(){
+if(wxInited)return;
+wxInited=true;
+
+// Annual rainfall + GSR
+var yrLabels=['2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'];
+var yrRain=[670,568,603,456,590,780,577,478,521,524];
+var yrGSR=[497,395,502,415,535,657,516,389,505,481];
+var yrGDD=[5700,5779,5726,6010,5971,5803,5845,6027,6279,6040];
+var avgGSR=Math.round(yrGSR.reduce(function(a,b){return a+b},0)/yrGSR.length);
+
+new Chart(document.getElementById('wxAnnualRain'),{
+type:'bar',
+data:{labels:yrLabels,
+datasets:[
+{label:'Total Rainfall (mm)',data:yrRain,backgroundColor:yrRain.map(function(v){return v<450?'rgba(212,93,93,0.6)':v>650?'rgba(93,168,126,0.6)':'rgba(59,130,246,0.5)'}),borderRadius:3,order:2},
+{label:'Growing Season Rain (mm)',data:yrGSR,backgroundColor:yrGSR.map(function(v){return v<420?'rgba(212,93,93,0.8)':v>550?'rgba(93,168,126,0.8)':'rgba(212,163,93,0.7)'}),borderRadius:3,order:2},
+{label:'Total GDD',data:yrGDD,type:'line',borderColor:'#d4a35d',borderWidth:2,borderDash:[5,3],pointRadius:4,pointBackgroundColor:'#d4a35d',fill:false,yAxisID:'y1',order:1}
+]},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:12}}},scales:{x:{grid:{display:false}},y:{title:{display:true,text:'Rainfall (mm)'},grid:{color:'rgba(255,255,255,0.04)'}},y1:{position:'right',title:{display:true,text:'GDD'},grid:{display:false},min:5500,max:6500}}}
+});
+
+// Monthly temp chart
+var moNames=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var moMax=[30.5,29.7,27.0,22.6,19.0,15.8,14.9,15.5,17.4,19.8,24.0,28.6];
+var moMin=[14.8,15.0,14.2,11.3,9.0,7.5,6.9,6.6,7.2,8.5,10.6,13.2];
+
+new Chart(document.getElementById('wxTemp'),{
+type:'line',
+data:{labels:moNames,
+datasets:[
+{label:'Avg Monthly Max (10-yr)',data:moMax,borderColor:'#d45d5d',backgroundColor:'rgba(212,93,93,0.08)',fill:true,tension:0.3,pointRadius:5,pointBackgroundColor:'#d45d5d',borderWidth:2.5},
+{label:'Avg Monthly Min (10-yr)',data:moMin,borderColor:'#5da87e',backgroundColor:'rgba(93,168,126,0.06)',fill:true,tension:0.3,pointRadius:5,pointBackgroundColor:'#5da87e',borderWidth:2.5},
+{label:'2019 Max (cool)',data:[29.4,30.2,26.7,22.6,18.6,15.9,15.5,16.4,19.0,20.7,26.0,31.9],borderColor:'#d45d5d',borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false,tension:0.3},
+{label:'2024 Max (warm)',data:[30.7,33.1,27.9,25.1,21.1,16.3,15.5,16.0,18.1,21.5,24.8,29.8],borderColor:'#3b82f6',borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false,tension:0.3}
+]},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:12}}},scales:{x:{grid:{display:false}},y:{title:{display:true,text:'Temperature (°C)'},grid:{color:'rgba(255,255,255,0.04)'}}}}
+});
+
+// Growing season rainfall by year
+var gsMonths=['Apr','May','Jun','Jul','Aug','Sep','Oct','Nov'];
+var gsData={
+'2019':[25.4,19.1,137.9,56.5,89.3,37.9,43.9,5.4],
+'2020':[16.6,81.7,116.9,82.4,69.7,87.4,11.1,68.8],
+'2021':[85.0,81.2,97.3,166.9,69.3,64.5,80.3,12.6],
+'2022':[50.9,94.2,73.3,93.9,87.5,55.1,38.0,23.4],
+'2023':[40.9,37.7,66.9,83.7,78.4,61.5,11.6,7.9],
+'2024':[0.2,55.8,94.9,152.6,115.6,27.5,27.7,30.7],
+'2025':[35.5,28.5,72.5,106.8,125.2,50.6,38.2,23.5]
+};
+var gsColors={'2019':'#d45d5d','2020':'#d4a35d','2021':'#5da87e','2022':'#3b82f6','2023':'#d45d5d','2024':'#6366f1','2025':'#8b5cf6'};
+var gsDS=[];
+Object.keys(gsData).forEach(function(yr){
+gsDS.push({label:yr,data:gsData[yr],borderColor:gsColors[yr],borderWidth:yr==='2021'||yr==='2019'?2.5:1.5,pointRadius:yr==='2021'||yr==='2019'?4:2,fill:false,tension:0.3,borderDash:yr==='2023'||yr==='2020'?[4,3]:[]});
+});
+
+new Chart(document.getElementById('wxGSRain'),{
+type:'line',
+data:{labels:gsMonths,datasets:gsDS},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:10}}},scales:{x:{grid:{display:false}},y:{title:{display:true,text:'Monthly Rain (mm)'},grid:{color:'rgba(255,255,255,0.04)'}}}}
+});
+
+// Cumulative GDD by year
+var gddData={};
+['2019','2020','2021','2022','2023','2024','2025'].forEach(function(yr){
+var gs=[
+{yr:'2019',d:[492,398,353,349,354,404,461,551]},
+{yr:'2020',d:[524,406,391,362,340,382,471,465]},
+{yr:'2021',d:[521,438,332,344,359,359,381,489]},
+{yr:'2022',d:[496,421,357,334,318,367,386,471]},
+{yr:'2023',d:[450,418,291,342,349,416,504,613]},
+{yr:'2024',d:[549,499,361,353,381,381,479,532]},
+{yr:'2025',d:[526,456,371,310,346,376,430,503]}
+].find(function(g){return g.yr===yr});
+if(gs){var cum=[];gs.d.reduce(function(a,v,i){cum.push(a+v);return a+v;},0);gddData[yr]=cum;}
+});
+var gddDS=[];
+Object.keys(gddData).forEach(function(yr){
+gddDS.push({label:yr+' GDD',data:gddData[yr],borderColor:gsColors[yr],borderWidth:yr==='2019'||yr==='2024'?2.5:1.5,pointRadius:yr==='2019'||yr==='2024'?4:2,fill:false,tension:0.2});
+});
+
+new Chart(document.getElementById('wxGDD'),{
+type:'line',
+data:{labels:gsMonths,datasets:gddDS},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:10}}},scales:{x:{grid:{display:false}},y:{title:{display:true,text:'Cumulative GDD (base 0°C)'},grid:{color:'rgba(255,255,255,0.04)'},min:0}}}
+});
+}
+
+// ========== SOIL TEST MARKER + CURRENT MONTH (NOW) ==========
+(function(){
+var cm=2; // March (0-indexed)
+var nowPct=((cm+0.5)/12*100);
+
+// Soil test: January (plan ahead for season) → fraction = (0+15/31)/12 ≈ mid-Jan
+var soilFrac=(0+15/31)/12;
+
+// Highlight current month as NOW in month row
+var moRow=document.getElementById('phenoMonthRow');
+if(moRow){
+  moRow.querySelectorAll('.pheno-mo').forEach(function(cell){
+    if(parseInt(cell.dataset.mo)===cm){cell.style.color='#5da87e';cell.style.fontWeight='800';cell.textContent='NOW';}
+  });
+}
+
+// Green NOW line on each crop bar
+var strip=document.getElementById('pheno-strip');
+if(strip){
+  var bars=strip.querySelectorAll('.pheno-bar');
+  var isLast;
+  bars.forEach(function(bar,idx){
+    isLast=(idx===bars.length-1);
+    bar.style.position='relative';
+    // Only allow overflow on last bar for labels/tooltips below
+    bar.style.overflow=isLast?'visible':'hidden';
+
+    // Soil test marker on every bar, label+dot only on last bar
+    var sm=document.createElement('div');
+    sm.className='test-marker soil'+(isLast?' labelled':'');
+    if(isLast) sm.setAttribute('data-label','SOIL TESTING');
+    sm.style.left=(soilFrac*100)+'%';
+    bar.appendChild(sm);
+
+    // Tooltip on last bar
+    if(isLast){
+      sm.style.pointerEvents='auto';
+      sm.style.cursor='default';
+      var tipDiv=document.createElement('div');
+      tipDiv.className='marker-tip';
+      tipDiv.innerHTML='<strong>Soil Testing \u2014 January</strong><br>The 2022 samples were taken by Luke Freeman (Hi-Tech Ag) in September. We generally soil test around January to plan ahead for the coming season, but we can work into your cycle once confirmed.';
+      sm.appendChild(tipDiv);
+    }
+
+    // NOW line
+    var nl=document.createElement('div');
+    nl.style.cssText='position:absolute;top:0;bottom:0;left:'+nowPct+'%;width:2px;background:#5da87e;z-index:10;pointer-events:none;box-shadow:0 0 6px rgba(93,168,126,0.5)';
+    bar.appendChild(nl);
+  });
+}
+})();
+
+// Position fixed tooltips relative to their marker
+function positionTip(marker){
+  var tip=marker.querySelector('.marker-tip');
+  if(!tip) return;
+  var rect=marker.getBoundingClientRect();
+  tip.style.left=(rect.left+rect.width/2-110)+'px';
+  tip.style.top=(rect.top-tip.offsetHeight-8)+'px';
+  // Keep on screen
+  if(parseInt(tip.style.top)<4) tip.style.top=(rect.bottom+8)+'px';
+  var l=parseInt(tip.style.left);
+  if(l<4) tip.style.left='4px';
+  if(l+220>window.innerWidth) tip.style.left=(window.innerWidth-224)+'px';
+}
+
+// Tooltip toggle for timeline markers
+(function(){
+  var markers=document.querySelectorAll('.test-marker');
+  markers.forEach(function(marker){
+    marker.style.pointerEvents='auto';
+    marker.style.cursor='pointer';
+    marker.addEventListener('mouseenter',function(){positionTip(this)});
+    marker.addEventListener('click',function(e){
+      var wasActive=this.classList.contains('tip-active');
+      markers.forEach(function(m){m.classList.remove('tip-active')});
+      if(!wasActive){this.classList.add('tip-active');positionTip(this);}
+      e.stopPropagation();
+    });
+  });
+  document.addEventListener('click',function(){markers.forEach(function(m){m.classList.remove('tip-active')})});
+})();
+
+</script>
+
+</body>
+</html>
